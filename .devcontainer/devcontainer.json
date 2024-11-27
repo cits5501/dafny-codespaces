@@ -1,10 +1,16 @@
 {
-	"name": "dafny",
-	"image": "adstewart/dafny-codespaces:latest",
+  "name": "dafny",
+  "image": "adstewart/dafny-codespaces:latest",
   "customizations": {
     "vscode": {
       "extensions": ["dafny-lang.ide-vscode"]
+    },
+    "codespaces": {
+      "openFiles": [
+        "README.md",
+        "/opt/dafny/guide.md",
+        "sample.dfy"
+      ]
     }
   }
 }
-

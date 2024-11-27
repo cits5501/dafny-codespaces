@@ -16,7 +16,7 @@ REPO=adstewart
 
 IMAGE_NAME=dafny-codespaces
 
-IMAGE_VERSION=0.1.1
+IMAGE_VERSION=0.1.2
 
 print-image-name:
 	@echo $(IMAGE_NAME)

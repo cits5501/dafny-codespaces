@@ -11,5 +11,9 @@ RUN \
   && chmod -R +r /opt/dafny \
   && rm ${DAFNY_ZIP} 
 
+# download tutorial to /opt/dafny/guide.md
+RUN \
+  curl -L https://raw.githubusercontent.com/dafny-lang/dafny/refs/tags/v${DAFNY_VERSION}/docs/OnlineTutorial/guide.md > /opt/dafny/guide.md
+
 ENV PATH /opt/dafny:/opt/dafny/z3/bin:${PATH}
 

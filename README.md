@@ -14,3 +14,7 @@ A Docker image designed to work with Codespaces, letting you use the
 - Gitpod will download the Docker image and create an online IDE environment
 - In the terminal shell, the `dafny` command will be on your `PATH`.
 
+## Dafny tutorial
+
+You can find a Dafny tutorial online [here](https://github.com/dafny-lang/dafny/blob/v3.4.0/docs/OnlineTutorial/guide.md).
+
