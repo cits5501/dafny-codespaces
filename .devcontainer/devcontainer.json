@@ -1,0 +1,5 @@
+{
+	"name": "dafny",
+	"image": "adstewart/dafny-codespaces:latest"
+}
+
